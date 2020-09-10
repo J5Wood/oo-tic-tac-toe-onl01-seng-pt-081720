@@ -119,7 +119,7 @@ class TicTacToe
     if self.won?
       puts "Congratulations player #{self.winner}! You have won the game!"
     else
-      puts "Tie game! Please play again!"
+      puts "Cat\'s Game!"
     end
   end
 
