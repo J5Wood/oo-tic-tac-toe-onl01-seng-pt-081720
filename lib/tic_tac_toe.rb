@@ -117,7 +117,7 @@ class TicTacToe
       binding.pry
     end
     if self.won?
-      puts "Congratulations player #{self.winner}! You have won the game!"
+      puts "Congratulations #{self.winner}!"
     else
       puts "Cat\'s Game!"
     end
