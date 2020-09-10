@@ -114,7 +114,6 @@ class TicTacToe
     until self.over? do
       self.turn
       self.turn_count
-      binding.pry
     end
     if self.won?
       puts "Congratulations #{self.winner}!"
